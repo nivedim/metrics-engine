@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node src/index.ts",
-    "seed:fixtures": "ts-node src/ingestFixtures.ts",
-    "test": "jest"
+    "build": "tsc",
+    "start": "node --experimental-vm-modules dist/index.js",
+    "seed:fixtures": "ts-node-esm src/ingestFixtures.ts",
+    "dev": "ts-node src/index.ts",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "keywords": [],
   "author": "",
