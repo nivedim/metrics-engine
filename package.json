@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node build/index.js",
-    "dev": "ts-node src/index.ts"
+    "start": "node --experimental-vm-modules dist/index.js",
+    "seed:fixtures": "ts-node-esm src/ingestFixtures.ts",
+    "dev": "ts-node src/index.ts",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "keywords": [],
   "author": "",
