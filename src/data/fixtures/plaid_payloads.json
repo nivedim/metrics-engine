@@ -1,0 +1,10 @@
+[
+  {
+    "transaction_id": "plaid_tx_84jfn29",
+    "amount": 150.50,
+    "iso_currency_code": "USD",
+    "date": "2026-06-18",
+    "source": "plaid",
+    "current_status": "posted"
+  }
+]

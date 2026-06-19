@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ch_3Mv1y2LkdIwHu7ix1a",
+    "amount": 4900,
+    "currency": "usd",
+    "created": 1773916800,
+    "source_system": "stripe",
+    "status": "succeeded"
+  },
+  {
+    "id": "ch_3Mv2Z1LkdIwHu7ix2b",
+    "amount": 12000,
+    "currency": "usd",
+    "created": 1774003200,
+    "source_system": "stripe",
+    "status": "failed"
+  }
+]
